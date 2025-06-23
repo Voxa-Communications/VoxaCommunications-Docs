@@ -1,0 +1,3 @@
+[submodule "docs/repos/docs/repos/VoxaCommunications-NetNode"]
+	path = docs/repos/docs/repos/VoxaCommunications-NetNode
+	url = https://github.com/Voxa-Communications/VoxaCommunications-NetNode.git
