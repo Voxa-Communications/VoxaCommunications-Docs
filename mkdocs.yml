@@ -27,7 +27,7 @@ repo_url: https://github.com/Voxa-Communications/VoxaCommunications-Wiki
 theme:
   name: material
   custom_dir: material-overrides
-  favicon: assets/images/favicon.webp
+  favicon: assets/images/favicon.ico
   logo: assets/images/logo.webp
   icon:
     edit: material/github
