@@ -1,0 +1,15 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="startGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="120" fill="url(#startGradient)" rx="12"/>
+  <g transform="translate(100, 60)">
+    <!-- Play/Start icon -->
+    <polygon points="-12,18 -12,-18 20,0" fill="white" opacity="0.9"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="white" stroke-width="3" opacity="0.6"/>
+  </g>
+  <text x="100" y="95" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">GET STARTED</text>
+</svg>

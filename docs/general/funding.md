@@ -27,3 +27,6 @@ Website and Repo Card sponsorships are awarded from the [pateron tiers](https://
 - **Silver**: $100 / Month. Unlocks Silver Tier sponsor on both the website and repo cards
 - **Gold**: $500 / Month. Gold tier and repo cards
 - **Platinum**: $500+ / Month. **Notice:** This tier is not avalible in pateron, for sponsors above $500 please contact us at `voxa@connor33341.dev`
+
+#### For Developers:
+A list of sponsors is avalible in [`Voxa-Communications/.github`](https://github.com/Voxa-Communications/.github/blob/main/static/sponsors.json)
