@@ -68,6 +68,11 @@ theme:
 # Plugins
 plugins:
   - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: true
   #- awesome-pages
   #- macros:
   #    module_name: macros/rpc
