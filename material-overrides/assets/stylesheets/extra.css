@@ -26,7 +26,7 @@
 }
 
 .col a:hover {
-    color: #0078d4;
+    color: #00d4ff;
     /* Add hover effect */
 }
 
@@ -49,9 +49,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border: 1px solid slategrey;
+    border: 1px solid #4a4a4a;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #2a2a2a;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
     text-decoration: none !important;
@@ -60,8 +60,8 @@
 
 /* Dark mode card container */
 [data-md-color-scheme='slate'] .card-container {
-    background-color: #3a3a3a;
-    border: 1px solid #4a4a4a;
+    background-color: #1a1a1a;
+    border: 1px solid #00d4ff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -72,15 +72,17 @@
 
 .card-container:hover {
     transform: scale(1.05); /* Gradual zoom effect */
-    box-shadow: 0 8px 16px rgba(255, 105, 180, 0.6), /* Pink polkadot glow */
-                0 0 15px rgba(255, 182, 193, 0.5); /* Enhanced glow */
-    background-color: #f4f4f4;
+    box-shadow: 0 8px 16px rgba(0, 212, 255, 0.6), /* Cyan glow */
+                0 0 15px rgba(0, 212, 255, 0.5); /* Enhanced glow */
+    background-color: #3a3a3a;
     /* Optional: Slight color change on hover */
 }
 
 /* Dark mode card hover */
 [data-md-color-scheme='slate'] .card-container:hover {
-    background-color: #454545;
+    background-color: #0a0a0a;
+    box-shadow: 0 8px 16px rgba(0, 212, 255, 0.8), 
+                0 0 20px rgba(0, 212, 255, 0.6);
 }
 
 /* Image inside the card */
@@ -99,13 +101,13 @@
 .card-title {
     margin-top: 5px;
     font-weight: bold;
-    color: black;
+    color: #00d4ff;
     text-align: center;
 }
 
 /* Dark mode card title */
 [data-md-color-scheme='slate'] .card-title {
-    color: #c6cfdb;
+    color: #00d4ff;
 }
 
 .title {

@@ -4,7 +4,7 @@
 }
 
 .home-container {
-  background-image: url('../images/gradient.webp');
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #2a2a2a 100%);
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: calc(
@@ -111,14 +111,15 @@
 }
 
 .md-typeset a.tutorial-card {
-  background-color: var(--white);
+  background-color: #2a2a2a;
   border-radius: 16px;
-  border: 1px solid var(--mystic);
+  border: 1px solid #00d4ff;
   padding: 1em;
   text-decoration: none;
   position: relative;
   width: 100%;   
   height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 212, 255, 0.2);
 }
 
 .md-typeset a.tutorial-card:first-child {
@@ -148,7 +149,7 @@
 
 .md-typeset a.tutorial-card:hover h3,
 .md-typeset a.feature:hover h3 {
-  color: var(--pink);
+  color: #00d4ff;
 }
 
 .md-typeset a.tutorial-card .md-icon svg {

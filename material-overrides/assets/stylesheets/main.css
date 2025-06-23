@@ -7,7 +7,7 @@
   --black: #000000;
 
   /* Primary color */
-  --pink: #ff2670;
+  --cyan: #00d4ff;
 
   /* Secondary colors */
   --chartreuse: #e4ff07;
@@ -25,18 +25,18 @@
 :root,
 [data-md-color-scheme='default'] {
   --md-default-fg-color: var(--storm-gray);
-  --md-default-bg-color: var(--white);
+  --md-default-bg-color: #2a2a2a;
 
-  --md-primary-fg-color: var(--mystic);
-  --md-accent-fg-color: var(--pink);
-  --md-accent-fg-color--transparent: var(--athens-gray);
+  --md-primary-fg-color: #1a1a1a;
+  --md-accent-fg-color: var(--cyan);
+  --md-accent-fg-color--transparent: #4a4a4a;
 
-  --md-typeset-a-color: var(--storm-gray);
+  --md-typeset-a-color: var(--cyan);
 
-  --md-footer-fg-color: var(--black);
-  --md-footer-fg-color--light: var(--black);
-  --md-footer-bg-color: var(--white);
-  --md-footer-bg-color--dark: var(--white);
+  --md-footer-fg-color: var(--heather);
+  --md-footer-fg-color--light: var(--heather);
+  --md-footer-bg-color: #1a1a1a;
+  --md-footer-bg-color--dark: #1a1a1a;
 
   /** Branded code snippets**/
   --md-code-fg-color: #363732;
@@ -95,9 +95,9 @@
 /* Dark mode theme */
 [data-md-color-scheme='slate'] {
   --md-default-fg-color: #c6cfdb;
-  --md-default-bg-color: #1a1a1a;
+  --md-default-bg-color: #0a0a0a;
 
-  --md-primary-fg-color: #2a2a2a;
+  --md-primary-fg-color: #1a1a1a;
   --md-accent-fg-color: var(--pink);
   --md-accent-fg-color--transparent: #3a3a3a;
 

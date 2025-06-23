@@ -9,7 +9,7 @@ extra_javascript:
   - js/root-level-sections.js
   - js/search-bar-results.js
   - js/header-scroll.js
-  - js/homepage-light-mode.js
+#  - js/homepage-light-mode.js
   - js/dynamic-logo.js
 extra_css:
   - assets/stylesheets/extra.css
@@ -40,7 +40,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
-      accent: pink
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -48,7 +48,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
-      accent: pink
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -68,7 +68,7 @@ theme:
 # Plugins
 plugins:
   - search
-  - awesome-pages
+  #- awesome-pages
   #- macros:
   #    module_name: macros/rpc
 

@@ -1,6 +1,6 @@
 .md-banner {
-  background-color: #e6007a;
-  color: white;
+  background-color: #00d4ff;
+  color: #1a1a1a;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .md-banner a {
-  color: white;
+  color: #1a1a1a;
   font-weight: bold;
   text-decoration: underline;
 }
