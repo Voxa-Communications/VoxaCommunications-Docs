@@ -1,0 +1,94 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="architectureGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0099cc;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="75" cy="75" r="70" fill="url(#architectureGradient)" opacity="0.1"/>
+  <circle cx="75" cy="75" r="70" fill="none" stroke="url(#architectureGradient)" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main architecture/building icon -->
+  <g transform="translate(75, 75)" filter="url(#glow)">
+    <!-- Building structure with layers -->
+    <g>
+      <!-- Foundation layer -->
+      <rect x="-35" y="15" width="70" height="12" rx="2" 
+            fill="white" opacity="0.9" stroke="#00d4ff" stroke-width="2"/>
+      
+      <!-- Middle layer -->
+      <rect x="-30" y="0" width="60" height="15" rx="2" 
+            fill="white" opacity="0.9" stroke="#00d4ff" stroke-width="2"/>
+      
+      <!-- Top layer -->
+      <rect x="-25" y="-15" width="50" height="15" rx="2" 
+            fill="white" opacity="0.9" stroke="#00d4ff" stroke-width="2"/>
+      
+      <!-- Roof/peak -->
+      <polygon points="0,-35 -30,-15 30,-15" 
+               fill="#00d4ff" opacity="0.8" stroke="#00d4ff" stroke-width="1"/>
+    </g>
+    
+    <!-- Architectural details -->
+    <g>
+      <!-- Pillars/columns -->
+      <rect x="-20" y="0" width="4" height="27" fill="#00d4ff" opacity="0.7"/>
+      <rect x="-5" y="0" width="4" height="27" fill="#00d4ff" opacity="0.7"/>
+      <rect x="10" y="0" width="4" height="27" fill="#00d4ff" opacity="0.7"/>
+      
+      <!-- Windows/sections -->
+      <rect x="-15" y="-10" width="8" height="6" fill="none" stroke="#00d4ff" stroke-width="1"/>
+      <rect x="0" y="-10" width="8" height="6" fill="none" stroke="#00d4ff" stroke-width="1"/>
+      <rect x="15" y="-10" width="8" height="6" fill="none" stroke="#00d4ff" stroke-width="1"/>
+      
+      <!-- Foundation details -->
+      <line x1="-30" y1="21" x2="30" y2="21" stroke="#00d4ff" stroke-width="1" opacity="0.6"/>
+      <line x1="-25" y1="24" x2="25" y2="24" stroke="#00d4ff" stroke-width="1" opacity="0.6"/>
+    </g>
+    
+    <!-- System architecture elements -->
+    <g opacity="0.7">
+      <!-- Network nodes around the building -->
+      <g transform="translate(-45, -20)">
+        <circle cx="0" cy="0" r="4" fill="#00d4ff"/>
+        <circle cx="0" cy="0" r="8" fill="none" stroke="#00d4ff" stroke-width="1"/>
+      </g>
+      
+      <g transform="translate(45, -10)">
+        <circle cx="0" cy="0" r="4" fill="#00d4ff"/>
+        <circle cx="0" cy="0" r="8" fill="none" stroke="#00d4ff" stroke-width="1"/>
+      </g>
+      
+      <g transform="translate(-40, 40)">
+        <circle cx="0" cy="0" r="3" fill="#00d4ff"/>
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#00d4ff" stroke-width="1"/>
+      </g>
+      
+      <g transform="translate(40, 35)">
+        <circle cx="0" cy="0" r="3" fill="#00d4ff"/>
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#00d4ff" stroke-width="1"/>
+      </g>
+      
+      <!-- Connection lines -->
+      <line x1="-41" y1="-16" x2="-30" y2="-8" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+      <line x1="41" y1="-6" x2="30" y2="2" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+      <line x1="-37" y1="36" x2="-25" y2="25" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+      <line x1="37" y1="31" x2="25" y2="20" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+      
+      <!-- Data flow arrows -->
+      <g transform="translate(0, -45)">
+        <polygon points="0,0 -3,6 3,6" fill="#00d4ff"/>
+        <line x1="0" y1="6" x2="0" y2="12" stroke="#00d4ff" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
