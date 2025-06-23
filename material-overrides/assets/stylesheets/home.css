@@ -74,6 +74,17 @@
   max-width: 44%;
 }
 
+/* Hero content text styling */
+.hero-content h1,
+.hero-content h2,
+.hero-content p {
+  color: #c6cfdb;
+}
+
+.hero-content h2 {
+  color: #00d4ff;
+}
+
 .md-typeset .hero-content h1 {
   font-size: 2.773rem;
   margin-bottom: 0.5em;
@@ -108,6 +119,16 @@
   grid-template-rows: auto;
   grid-auto-rows: minmax(200px, auto);
   grid-template-columns: 1fr 1fr;
+}
+
+/* Tutorial card text styling */
+.tutorial-card h3,
+.tutorial-card p {
+  color: #c6cfdb;
+}
+
+.tutorial-card h3 {
+  color: #00d4ff;
 }
 
 .md-typeset a.tutorial-card {
@@ -199,27 +220,28 @@
 }
 
 .md-typeset a.feature {
-  color: var(--md-default-fg-color);
+  color: #c6cfdb;
   flex: 1 1;
-  border: 1px solid var(--mystic);
+  border: 1px solid #00d4ff;
   border-radius: 16px;
   padding: 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
+  background-color: #2a2a2a;
 }
 
 .md-typeset a.feature h3 {
   font-size: 1.382rem;
-  color: var(--black);
+  color: #00d4ff;
   margin-top: 0;
   line-height: 1.2;
 }
 
 .md-typeset .featured-content a {
   text-decoration: none;
-  background-color: var(--white);
+  background-color: #2a2a2a;
 }
 
 .md-typeset a.feature .column:first-child {
@@ -259,7 +281,8 @@
 .final-cta {
   min-height: 360px;
   border-radius: 16px;
-  border: 1px solid var(--mystic);
+  border: 1px solid #00d4ff;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -279,8 +302,8 @@
   border-radius: 16px;
   background: linear-gradient(
     270deg,
-    rgba(0, 0, 0, 0) 0.38%,
-    rgba(0, 0, 0, 0.5) 97.35%
+    rgba(0, 212, 255, 0.1) 0.38%,
+    rgba(0, 0, 0, 0.7) 97.35%
   );
   padding: 0 3em 3em;
   display: flex;
@@ -290,7 +313,7 @@
 
 .md-typeset .final-cta h2 {
   font-size: 1.5rem;
-  color: var(--white);
+  color: #00d4ff;
   line-height: 1;
   margin-bottom: 0;
 }
@@ -298,7 +321,7 @@
 .md-typeset .final-cta p {
   font-size: 18px;
   line-height: 1.5;
-  color: var(--white);
+  color: #c6cfdb;
 }
 
 .md-typeset .final-cta .md-button {
