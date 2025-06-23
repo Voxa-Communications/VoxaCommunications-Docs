@@ -1,3 +1,6 @@
 [submodule "docs/repos/VoxaCommunications-NetNode"]
 	path = docs/repos/VoxaCommunications-NetNode
 	url = https://github.com/Voxa-Communications/VoxaCommunications-NetNode.git
+[submodule "docs/repos/VoxaCommunications-Registry"]
+	path = docs/repos/VoxaCommunications-Registry
+	url = https://github.com/Voxa-Communications/VoxaCommunications-Registry.git
