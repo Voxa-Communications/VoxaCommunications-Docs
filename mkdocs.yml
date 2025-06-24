@@ -39,7 +39,7 @@ theme:
     text: Manrope
   palette:
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
+    - media: "(prefers-color-scheme: dark)"
       scheme: default
       primary: custom
       accent: cyan
