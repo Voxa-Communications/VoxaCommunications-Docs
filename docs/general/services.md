@@ -1,5 +1,5 @@
 ---
-title: VoxaCommunications Services
+title: Services
 description: Comprehensive overview of all VoxaCommunications platform services and their capabilities
 ---
 
