@@ -15,6 +15,7 @@
 {% block styles %}
 	{{ super() }}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/main.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/sponsors.css' | url }}">
 {% endblock %}
 
 {% block fonts %}
@@ -137,4 +138,14 @@
       {% endblock %}
     </article>
   </div>
-{%- endblock -%} 
+{%- endblock -%}
+
+{% block footer %}
+  {#- Original footer -#}
+  {% include "partials/footer.html" %}
+  
+  {#- Sponsors section -#}
+  {% if "sponsors" in features %}
+    {% include "partials/sponsors.html" %}
+  {% endif %}
+{% endblock %}

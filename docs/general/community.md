@@ -15,6 +15,7 @@ description: Connect with VoxaCommunications
     - [Telegram](https://t.me/voxacommunications) - Prefered Method of Communication
     - [GitHub](https://github.com/Voxa-Communications) - Offical `Voxa-Communications` GitHub
     - [GitHub Discussion](https://github.com/orgs/Voxa-Communications/discussions) - Development Discussion
+    - [Email](mailto:voxa@connor33341.dev) - `voxa@connor33341.dev` For sponsors or relatively important matters. For other things, email the lead developer `connor@connor33341.dev`
 
 === "Stellaris"
 
