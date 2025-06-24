@@ -57,7 +57,7 @@ async function loadSponsors() {
             logoImg.src = sponsor.logo;
             logoImg.alt = sponsor.name;
             logoImg.onerror = function() {
-              this.src = `https://via.placeholder.com/150x60/666666/FFFFFF?text=${encodeURIComponent(sponsor.name)}`;
+              this.src = `https://placehold.co/150x60/666666/FFFFFF?text=${encodeURIComponent(sponsor.name)}`;
             };
             
             const nameDiv = document.createElement('div');
